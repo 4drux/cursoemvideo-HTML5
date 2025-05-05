@@ -40,3 +40,18 @@ figure.fotolegenda figcaption {
 figure.fotolegenda:hover figcaption {
     opacity: 1;
 }
+/* Formatação de menus. */
+nav#menu1 ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top : -20px;
+    left: 300px;
+}
+nav#menu1 li {
+    display: inline-block;
+    background-color: rgb(189, 189, 189);
+}
+nav#menu1 h1 {
+    display: none;
+}
