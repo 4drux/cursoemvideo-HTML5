@@ -140,7 +140,8 @@ section#corpo {
     margin: 5 auto;
     padding: 10px;
     box-sizing: border-box;
-    box-shadow: 1px 1px 4px rgba(111, 111, 111, 0.726);
+    box-shadow: 
+    -5px 0 5px -5px rgba(111, 111, 111, 0.726); /* sombra à direita */
 }
 aside#lateral {
     display: block;
@@ -154,8 +155,7 @@ aside#lateral {
     margin: 5 auto;
     padding: 10px;;
     box-shadow:
-        0 -5px 5px -5px rgba(111, 111, 111, 0.726), /* sombra no topo */
-        5px 0 5px -5px rgba(111, 111, 111, 0.726); /* sombra à direita */
+        5px 0 5px -5px rgba(111, 111, 111, 0.726); /* sombra à esquerda */
 }
 footer#rodape{
     clear: both;
@@ -165,6 +165,10 @@ footer#rodape{
     border-left: 1px solid rgba(211, 211, 211, 0.726);
     border-radius: 13px;
     margin: 0 auto;
+    box-shadow: 
+    -5px 0 5px -5px rgba(111, 111, 111, 0.726) /* sombra à esquerda */
+    0 5px 5px -5px rgba(111, 111, 111, 0.726) /* sombra embaixo */
+    5px 0 5px -5px rgba(111, 111, 111, 0.726); /* sombra à direita */
 }
 footer#rodape p {
     text-align: center;
